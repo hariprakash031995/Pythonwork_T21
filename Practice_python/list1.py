@@ -16,3 +16,12 @@ name.pop(0)
 print(name)
 
 print("***********************************")
+# First,Last elements whose square value is between 1 and 30
+
+def square(n):
+    if n >= 1 and n <= 30:
+        return n ** 2 
+    else:
+        return 0 
+    
+print(square(100))
