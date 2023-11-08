@@ -25,3 +25,20 @@ def square(n):
         return 0 
     
 print(square(100))
+
+print("***********************************")
+
+# Clone or copy
+
+a = [1, 2, 3]
+b = a.copy()
+print(a)
+print(b)
+
+print("***********************************")
+a= [1,2,3]
+b=a.copy()
+print(a)
+print(b)
+
+print("***********************************")
