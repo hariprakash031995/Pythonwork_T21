@@ -42,3 +42,12 @@ print(a)
 print(b)
 
 print("***********************************")
+# Check list is empty or not
+
+lis = []
+
+if lis:
+    print("List is not empty")  
+else:
+    print("List is empty")
+
